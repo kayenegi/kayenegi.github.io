@@ -13,7 +13,7 @@ body {
 }
 
     .box0 {
-        height: 150px;
+        height: 100px;
         width: 1000px;
         padding: 20px;
         margin: 50px;
@@ -37,4 +37,22 @@ body {
     margin: 50px;
     border: 10px solid black;
     background-color: rgb(58, 13, 100);
+}
+
+.box3{
+    height: 500px;
+    width: 1000px;
+    padding: 20px;
+    margin: 50px;
+    border: 10px solid black;
+    background-color: rgb(82, 122, 91);
+}
+
+.box4{
+    height: 500px;
+    width: 1000px;
+    padding: 20px;
+    margin: 50px;
+    border: 10px solid black;
+    background-color: rgb(115, 122, 82);
 }
