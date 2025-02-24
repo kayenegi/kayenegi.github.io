@@ -8,12 +8,23 @@ h2{
 body {
     color: red;
 }
-
+.white{
+    color: white;
+}
 .box {
-    height: 250px;
+    height: 150px;
     width: 1000px;
     padding: 20px;
     margin: 50px;
     border: 10px solid black;
     background-color: rgb(26, 26, 26);
+}
+
+.box2{
+    height: 500px;
+    width: 1000px;
+    padding: 20px;
+    margin: 50px;
+    border: 10px solid black;
+    background-color: rgb(58, 13, 100);
 }
