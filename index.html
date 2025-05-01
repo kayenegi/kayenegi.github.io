@@ -48,45 +48,49 @@ header nav a:hover {
 .box-left,
 .box-right,
 .box-center {
-    width: 80%; /* More responsive on different screen sizes */
-    max-width: 700px;
-    margin: 20px auto;
+    width: 100%; /* Make boxes take up the full width of the screen */
+    height: 100vh; /* Make boxes take up the full height of the screen */
     padding: 20px;
-    border-radius: 15px; /* Soft rounded corners */
+    border-radius: 15px;
     background-color: #f9f9f9;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 3m;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover transition */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: auto; /* In case content overflows */
 }
 
 /* Left box */
 .box-left {
     text-align: left;
     background-color: #e0f7fa;
-    border-left: 10px solid #00796b; /* Accent line */
+    border-left: 10px solid #00796b;
 }
 
 /* Right box */
 .box-right {
     text-align: right;
     background-color: #ffe0b2;
-    border-right: 10px solid #ff7043; /* Accent line */
+    border-right: 10px solid #ff7043;
 }
 
 /* Center box */
 .box-center {
     text-align: center;
     background-color: #d1c4e9;
-    border-top: 10px solid #7e57c2; /* Accent line */
+    border-top: 10px solid #7e57c2;
 }
 
 /* Hover effect */
 .box-left:hover,
 .box-right:hover,
 .box-center:hover {
-    transform: translateY(-5px); /* Lift effect */
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2); /* Stronger shadow */
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+        .profile-images {
+    text-align: center; /* Centers the image horizontally */
+    margin: 50px 0; /* Adds spacing around the image */
 }
         
     </style>
