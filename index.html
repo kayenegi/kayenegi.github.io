@@ -18,19 +18,32 @@
             text-align: center;
         }
 
+    .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
         h1 {
             margin: 0;
             font-size: 2em;
         }
 
+    header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+header nav a:hover {
+    color: #ccc;
+}
+
         .profile-images {
             margin: 100px;
             text-align: center;
-        }
-
-        .profile-images img {
-            margin: 0 10px;
-            border-radius: 8px;
         }
 
         main {
