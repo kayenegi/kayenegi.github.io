@@ -11,29 +11,41 @@
             padding: 0;
         }
 
-        header {
-            background-color: #222;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-
-    .header-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+header {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    position: relative;
 }
 
-        h1 {
-            margin: 0;
-            font-size: 2em;
-        }
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
 
-    header nav a {
+.header-title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+header nav a {
     color: white;
     text-decoration: none;
     margin-left: 20px;
     font-weight: bold;
+    font-size: 1.1em;
     transition: color 0.2s;
 }
 
@@ -49,12 +61,15 @@ header nav a:hover {
         main {
             padding: 20px;
         }
+        
     </style>
 </head>
 <body>
     <header>
     <div class="header-content">
-        <h1>Kay's Bibliography (dormant)</h1>
+        <div class="header-title">
+            <h1>Kay's Bibliography (dormant)</h1>
+        </div>
         <nav>
             <a href="#about">About</a>
             <a href="#meta">Meta</a>
